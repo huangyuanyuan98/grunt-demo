@@ -5,10 +5,9 @@ module.exports = function (grunt) {
         files: {
             'dist/rectangle.js': ['./rectangle.js'],
             'dist/calc.js':['./calc.js']
-        } 
-      
+        }  
+      }
     }
-  }
   })
 
     grunt.loadNpmTasks('grunt-contrib-uglify');//插件
